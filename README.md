@@ -21,6 +21,15 @@ pod update
 pod install
 ```
 
+## build on ios/android device/simulator/emulator
+Join the ios project folder in the terminal and run the following command to update pod modules
+
+```sh
+react-native run-ios
+react-native run-android
+```
+* Don't run 'react-native link'
+
 ## Unit Test
 Go back to the project folder in the terminal and run the following command to start unit test
 
